@@ -1,0 +1,42 @@
+﻿  main.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\thr\xthread(238): error C2672: 'std::invoke': no matching overloaded function found
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\thr\xthread(246): note: see reference to function template instantiation 'void std::_LaunchPad<_Target>::_Execute<0>(std::tuple<cv::Stitcher::Status> &,std::integer_sequence<unsigned __int64,0>)' being compiled
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<cv::Stitcher::Status>,std::default_delete<std::tuple<cv::Stitcher::Status>>>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\thr\xthread(245): note: see reference to function template instantiation 'void std::_LaunchPad<_Target>::_Execute<0>(std::tuple<cv::Stitcher::Status> &,std::integer_sequence<unsigned __int64,0>)' being compiled
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<cv::Stitcher::Status>,std::default_delete<std::tuple<cv::Stitcher::Status>>>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\thr\xthread(242): note: while compiling class template member function 'void std::_LaunchPad<_Target>::_Run(std::_LaunchPad<_Target> *) noexcept'
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<cv::Stitcher::Status>,std::default_delete<std::tuple<cv::Stitcher::Status>>>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\thr\xthread(230): note: see reference to function template instantiation 'void std::_LaunchPad<_Target>::_Run(std::_LaunchPad<_Target> *) noexcept' being compiled
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<cv::Stitcher::Status>,std::default_delete<std::tuple<cv::Stitcher::Status>>>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\thr\xthread(257): note: see reference to class template instantiation 'std::_LaunchPad<_Target>' being compiled
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<cv::Stitcher::Status>,std::default_delete<std::tuple<cv::Stitcher::Status>>>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\thread(46): note: see reference to function template instantiation 'void std::_Launch<std::unique_ptr<std::tuple<cv::Stitcher::Status>,std::default_delete<_Ty>>>(_Thrd_t *,_Target &&)' being compiled
+          with
+          [
+              _Ty=std::tuple<cv::Stitcher::Status>,
+              _Target=std::unique_ptr<std::tuple<cv::Stitcher::Status>,std::default_delete<std::tuple<cv::Stitcher::Status>>>
+          ]
+  c:\users\ethan\desktop\opencvroot\cameratest1\cameratest1\main.cpp(311): note: see reference to function template instantiation 'std::thread::thread<cv::Stitcher::Status,,void>(_Fn &&)' being compiled
+          with
+          [
+              _Fn=cv::Stitcher::Status
+          ]
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\thr\xthread(237): error C2893: Failed to specialize function template 'unknown-type std::invoke(_Callable &&,_Types &&...) noexcept(<expr>)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\thr\xthread(237): note: With the following template arguments:
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\thr\xthread(237): note: '_Callable=cv::Stitcher::Status'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\thr\xthread(237): note: '_Types={}'
